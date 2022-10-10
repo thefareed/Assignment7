@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   width: 80%;
+   padding:  -20em;
+   background-image: url(images/IMG-20221010-WA0002.jpg);
+   background-position:center ;
+   -webkit-background-size:cover ;
+   background-size: center;
+   background-attachment: fixed;
+   color: black;
+    font-weight: 250px;
+    margin: auto 0;
+    
+}
+
+.fade{
+   background-image: linear-gradient(
+    transparent 10%, black 30%, black 70%, transparent 90%
+   );
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+}
+
+.fade p{
+    color: transparent;
+}
+
+.pink{
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.pink li{
+    float: left;
+    display: block;
+    padding: 5px 10px;
+    font-size: 17px;
+    text-align: left top;  
+}
+
+.pink li a{
+    color: white;
+}
+
+.love{
+    text-align: center;
+    justify-content: end;
+    padding: 40px;
+}
+
+.fade p{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
